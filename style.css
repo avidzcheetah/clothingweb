@@ -1,0 +1,210 @@
+* { margin: 0; padding: 0;}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+}
+
+.top_bar {
+    display: block;
+    float: left;
+    position: relative;
+    background-color:  #e2f1f7;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.top_bar img {
+    display: inline;
+    float: left;
+    width: 20px;
+    padding: 0 10px;
+}
+
+.top_bar .search {
+    float: right;
+}
+
+.top_bar input {
+    float: left;
+    border: none;
+    background-color: #e2f1f7;
+    height: 18px;
+    border-radius: 10px;
+}
+
+.container nav {
+    position: relative;
+    float: left;
+    width: 100%;
+    background-color: rgb(200, 100, 200);
+}
+
+.container nav ul{
+    list-style-type: none;
+    height: 48px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+#logo {
+    float: left;
+    width: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+
+.container nav ul li {
+    display: inline-block;
+    border-radius: 8px;
+    margin-left: 5px;
+    padding: 10px 10px;
+    background-color: rgba(39, 39, 58, 0.2);
+    transition: .5s;
+}
+
+.container nav ul li:hover {
+    background-color: red;
+}
+
+.container nav ul li a {
+    color: aliceblue;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    #logo {
+        display: none;
+    }
+}
+
+.welcome {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.promo {
+    position: relative;
+    float: left;
+    width: 98%;
+    margin: auto 30px;
+}
+
+.promo h1 {
+    height: 60px;
+    padding: 20px 10px;
+    font-size: 60px;
+    background-color: #292726;
+    color: #ffffff;
+}
+
+.promo .promo_card {
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 2.5%;
+    float: left;
+}
+
+.promo .promo_card img {
+    width: 100%;
+}
+
+.heading {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+.heading h1 {
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.pro_card {
+    position: relative;
+    float: left;
+    margin-top: 15px;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.pro_card img {
+    width: 100%;
+    height: 400px;
+}
+
+.pro_card h2, .pro_card h3, .pro_card button {
+    margin-top: 5px;
+}
+
+.pro_card button  {
+    border: none;
+    background-color: #ce1a1a;
+    width: 25%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.pro_card button:hover {
+    cursor: pointer;
+}
+
+.pro_menu {
+    position: relative;
+    float: left;
+    width: 15%;
+    height: 100vh;
+    background-color: #292726;
+}
+
+.pro_menu ul {
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+.pro_menu ul li {
+    height: 40px;
+    padding-left: 10px;
+}
+
+.pro_menu ul li:first-child {
+    margin-top: 20px;
+}
+
+.pro_menu ul li a {
+    color: #e2f1f7;
+}
+
+.pro_menu ul li:hover {
+    color: black;
+    background-color: #e2f1f7;
+}
+
+.pro_menu ul li a:hover {
+    color: black;
+}
+
+.product {
+    position: relative;
+    float: left;
+    width: 85%;
+    margin: 0 auto;
+}
